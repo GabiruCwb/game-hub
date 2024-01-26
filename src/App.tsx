@@ -47,7 +47,6 @@ function App() {
               setGameQuery({ ...gameQuery, platform })
             }
           />
-          <SortSelector />
         </HStack>
         <GameGrid gameQuery={gameQuery} />
       </GridItem>
